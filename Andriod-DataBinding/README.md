@@ -1,6 +1,7 @@
 \<Most\> files needed for Data Binding in Android
 
 Recommended to start from an .xml file to see what files are used and how they interact with the ViewModel
+
 Below is a portion of recycler_view_item.xml and show the relevent info needed for databinding
 
 Note data/variable/type show the class referenced using name=model
@@ -32,6 +33,7 @@ and it is referenced @{model.itemTitle} and @{model.itemSubtitle}
 
 In RecyclerItemViewModel you can see the private variables itemTitle and itemSubtitle
 along with the @Bindable getters
+
 @Bindable is an annotation that is used inside a Observable Class such as BaseObservable.
 Android studio used this notation in autocompletion of xml's and it signifies a field which is being observed. (When the field is set/updated it triggers an update to the ui if needed)
 
