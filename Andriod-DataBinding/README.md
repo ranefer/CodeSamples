@@ -1,4 +1,4 @@
-<Most> files needed for Data Binding in Android
+\<Most\> files needed for Data Binding in Android
 
 Recommended to start from an .xml file to see what files are used and how they interact with the ViewModel
 Below is a portion of recycler_view_item.xml and show the relevent info needed for databinding
